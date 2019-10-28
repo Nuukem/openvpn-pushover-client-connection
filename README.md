@@ -6,7 +6,9 @@ Copy the two scripts into
 /etc/openvpn/server/
 ```
 
-CHMOD then for execution
+Edit the scripts to include your Pushover API and User keys, Client Name (location of the OpenVPN server) and if you want to use HTML formatting or not.
+
+CHMOD them for execution
 ```
 $ chmod a+x up.sh down.sh
 ```
