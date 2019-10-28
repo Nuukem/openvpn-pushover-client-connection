@@ -1,5 +1,5 @@
 # OpenVPN Pushover on Client Connection
-OpenVPN scripts to send an alert via Pushover when a User Connects and Disconnects.
+OpenVPN scripts to send an alert via <a href="https://pushover.net">Pushover</a> when a User Connects and Disconnects.
 
 Copy the two scripts into
 ```
