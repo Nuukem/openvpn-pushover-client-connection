@@ -10,7 +10,7 @@ time=$(echo $(date +"%c"))
 TITLE="OpenVPN :: $common_name DISCONNECTED from $CLIENT"
 MESSAGE="User has disconnected from <b>$CLIENT</b>:<br> \
 <b>Common Name:</b> $common_name<br> \
-<b>Connected Since:</b> $time<br> \
+<b>Connected For:</b> $time_duration seconds<br> \
 <b>Real Address:</b>$untrusted_ip<br> \
 <b>Virtual Address:</b> $ifconfig_pool_remote_ip<br> \
 <b>Date:</b> `date -R`"
